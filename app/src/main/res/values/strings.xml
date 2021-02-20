@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Meus Clientes</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Cliente</string>
+    <string name="nav_header_subtitle">Profº Marco Maddo</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="modelo_fragment">Fragmento Modelo</string>
+
+    <!-- Opções menu lateral -->
+    <string name="fragmento_add_cliente">Adicionar Cliente</string>
+    <string name="fragmento_listar_cliente">Listar Clientes</string>
+    <string name="fragmento_preto">Fragmento Preto</string>
+    <string name="titulo_preto">Preto</string>
+    <string name="fragmento_vermelho">Fragmento Vermelho</string>
+    <string name="titulo_vermelho">Vermelho</string>
+    <string name="fragmento_azul">Fragmento Azul</string>
+    <string name="titulo_azul">Azul</string>
+
+    <!-- Opçoes menu princial -->
+    <string name="action_settings">Sair</string>
+    <string name="my_perfil">Meu Perfil</string>
+
+    <!-- Tela cadastro de clientes -->
+    <string name="titulo_add_cliente">Adicionar Novo Cliente</string>
+    <string name="full_name">Nome completo</string>
+    <string name="phone_number">Telefone</string>
+    <string name="email_cliente">Email</string>
+    <string name="zip_code">CEP</string>
+    <string name="public_place">Logradouro</string>
+    <string name="address_number">Número</string>
+    <string name="district">Bairro</string>
+    <string name="city">Cidade</string>
+    <string name="state">Estado</string>
+    <string name="chek_use_terms">Termos de uso</string>
+    <string name="btn_cancel_cliente">Cancelar</string>
+    <string name="btn_save_new_cliente">Salvar</string>
+
+    <!-- Tela listar clientes -->
+    <string name="lista_de_clientes">Lista de Clientes</string>
+    <string name="pesquisar_por_nome">Pesquisar por nome</string>
+
+</resources>
