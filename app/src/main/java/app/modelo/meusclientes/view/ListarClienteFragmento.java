@@ -61,17 +61,13 @@ public class ListarClienteFragmento extends Fragment {
         txtTitulo.setTextColor(ColorStateList.valueOf(Color.RED));
 
         //Método temporário
-        clientes =  new ArrayList<>();
         clienteController = new ClienteController(getContext());
         clienteList = clienteController.listar();
-
+        clientes = clienteController.generateClienteListToListView();
         listView = (ListView) view.findViewById(R.id.listView);
         edFindByName = view.findViewById(R.id.edFindByName);
 
         //TODO: Implemntar regra de negócio da controladora da classe cliente
-        for (Cliente obj : clienteList) {
-            clientes.add(obj.getId() + ", " + obj.getName());
-        }
 
         clienteAdapter = new ArrayAdapter<>(getContext(), R.layout.lista_cliente_item, R.id.txtItemList, clientes);
         listView.setAdapter(clienteAdapter);

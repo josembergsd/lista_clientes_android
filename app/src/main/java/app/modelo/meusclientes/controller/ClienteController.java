@@ -6,6 +6,7 @@ package app.modelo.meusclientes.controller;
 import android.content.ContentValues;
 import android.content.Context;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import app.modelo.meusclientes.datamodel.ClienteDataModel;
@@ -62,4 +63,13 @@ public class ClienteController extends AppDataBase implements ICrud<Cliente> {
         return getAllCliente(ClienteDataModel.TABELA);
     }
 
+    public List<String> generateClienteListToListView() {
+        List<String> clientes = new ArrayList<>();
+        for (Cliente obj : listar()) {
+            clientes.add(obj.getId() + ", " + obj.getName());
+        }
+
+        return clientes;
+
+    }
 }
