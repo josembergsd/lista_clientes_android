@@ -13,6 +13,10 @@
             android:icon="@drawable/ic_item_menu_padrao"
             android:title="@string/fragmento_listar_cliente" />
 
+        <item android:id="@+id/nav_listar_cliente_cards"
+            android:icon="@drawable/ic_item_menu_padrao"
+            android:title="@string/fragmento_listar_cliente_cards" />
+
         <item android:id="@+id/nav_preto"
             android:icon="@drawable/ic_item_menu_padrao"
             android:title="@string/fragmento_preto" />

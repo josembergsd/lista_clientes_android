@@ -10,6 +10,7 @@
     <!-- Opções menu lateral -->
     <string name="fragmento_add_cliente">Adicionar Cliente</string>
     <string name="fragmento_listar_cliente">Listar Clientes</string>
+    <string name="fragmento_listar_cliente_cards">Listar Clientes (Cards)</string>
     <string name="fragmento_preto">Fragmento Preto</string>
     <string name="titulo_preto">Preto</string>
     <string name="fragmento_vermelho">Fragmento Vermelho</string>
@@ -37,7 +38,6 @@
     <string name="btn_save_new_cliente">Salvar</string>
 
     <!-- Tela listar clientes -->
-    <string name="lista_de_clientes">Lista de Clientes</string>
     <string name="pesquisar_por_nome">Pesquisar por nome</string>
 
 </resources>

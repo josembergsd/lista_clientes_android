@@ -24,7 +24,7 @@ import app.modelo.meusclientes.controller.ClienteController;
 import app.modelo.meusclientes.model.Cliente;
 
 
-public class ListarClienteFragmento extends Fragment {
+public class ListarClienteCardsFragmento extends Fragment {
 
     View view;
     EditText edFindByName;
@@ -38,7 +38,7 @@ public class ListarClienteFragmento extends Fragment {
     ArrayAdapter<String> clienteAdapter;
     ArrayList<HashMap<String, String>> clienteFiltro;
 
-    public ListarClienteFragmento() {
+    public ListarClienteCardsFragmento() {
     }
 
 
@@ -52,11 +52,11 @@ public class ListarClienteFragmento extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        view =  inflater.inflate(R.layout.fragmento_listar_clientes, container, false);
+        view =  inflater.inflate(R.layout.fragmento_listar_clientes_cards, container, false);
 
         TextView txtTitulo = view.findViewById(R.id.txtTitulo);
 
-        txtTitulo.setText(R.string.fragmento_listar_cliente);
+        txtTitulo.setText(R.string.fragmento_listar_cliente_cards);
 
         txtTitulo.setTextColor(ColorStateList.valueOf(Color.RED));
 
@@ -75,7 +75,7 @@ public class ListarClienteFragmento extends Fragment {
         edFindByName.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence filtro, int start, int count, int after) {
-                ListarClienteFragmento.this.clienteAdapter.getFilter().filter(filtro);
+                ListarClienteCardsFragmento.this.clienteAdapter.getFilter().filter(filtro);
             }
 
             @Override

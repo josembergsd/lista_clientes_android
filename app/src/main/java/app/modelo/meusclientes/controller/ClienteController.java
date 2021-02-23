@@ -13,7 +13,6 @@ import app.modelo.meusclientes.datamodel.ClienteDataModel;
 import app.modelo.meusclientes.datasource.AppDataBase;
 import app.modelo.meusclientes.model.Cliente;
 
-
 public class ClienteController extends AppDataBase implements ICrud<Cliente> {
 
     ContentValues values;

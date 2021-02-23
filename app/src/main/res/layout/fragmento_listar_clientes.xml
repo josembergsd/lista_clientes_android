@@ -8,7 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/lista_de_clientes"
+        android:text="@string/fragmento_listar_cliente"
         android:textSize="24sp"
         android:textStyle="bold" />
 
