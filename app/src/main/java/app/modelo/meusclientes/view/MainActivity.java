@@ -23,6 +23,7 @@ import app.modelo.meusclientes.R;
 import app.modelo.meusclientes.controller.ClienteController;
 
 //TODO: Criar novo layout para dar suporte aos CARDS
+//TODO: Criar novo layout para dar suporte aos CARD LISTEVIEW (ITENS)
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {

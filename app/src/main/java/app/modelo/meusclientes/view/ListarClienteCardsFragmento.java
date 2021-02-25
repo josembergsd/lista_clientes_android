@@ -69,7 +69,7 @@ public class ListarClienteCardsFragmento extends Fragment {
 
         //TODO: Implemntar regra de negócio da controladora da classe cliente
 
-        clienteAdapter = new ArrayAdapter<>(getContext(), R.layout.lista_cliente_item, R.id.txtItemList, clientes);
+        clienteAdapter = new ArrayAdapter<>(getContext(), R.layout.lista_cliente_item_cards, R.id.txtItemList, clientes);
         listView.setAdapter(clienteAdapter);
 
         edFindByName.addTextChangedListener(new TextWatcher() {
