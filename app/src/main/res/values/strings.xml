@@ -9,6 +9,7 @@
 
     <!-- Opções menu lateral -->
     <string name="fragmento_add_cliente">Adicionar Cliente</string>
+    <string name="fragmento_add_cliente_card">Adicionar Cliente (CARD)</string>
     <string name="fragmento_listar_cliente">Listar Clientes</string>
     <string name="fragmento_listar_cliente_cards">Listar Clientes (Cards)</string>
     <string name="fragmento_preto">Fragmento Preto</string>
@@ -24,6 +25,7 @@
 
     <!-- Tela cadastro de clientes -->
     <string name="titulo_add_cliente">Adicionar Novo Cliente</string>
+    <string name="titulo_add_cliente_cards">Adicionar Novo Cliente (CARD)</string>
     <string name="full_name">Nome completo</string>
     <string name="phone_number">Telefone</string>
     <string name="email_cliente">Email</string>
@@ -39,5 +41,7 @@
 
     <!-- Tela listar clientes -->
     <string name="pesquisar_por_nome">Pesquisar por nome</string>
+    <string name="txtPerfilContato">Perfil e Contato</string>
+    <string name="txtEndereco">Endereço</string>
 
 </resources>

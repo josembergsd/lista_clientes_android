@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity
 
         fragmentManager = getSupportFragmentManager();
         //nav_view usado para receer os layou /Tela principal
-        fragmentManager.beginTransaction().replace(R.id.content_fragment, new ListarClienteFragmento()).commit();
+        fragmentManager.beginTransaction().replace(R.id.content_fragment, new ListarClienteCardsFragmento()).commit();
 
         ClienteController clienteController = new ClienteController(getBaseContext());
 
@@ -174,9 +174,12 @@ public class MainActivity extends AppCompatActivity
         } else if(id == R.id.nav_add_cliente){
             setTitle("Novo Cliente");
             fragmentManager.beginTransaction().replace(R.id.content_fragment, new AddClienteFragmento()).commit();
+        }else if(id == R.id.nav_add_cliente_card){
+            setTitle("Novo Cliente (CARD)");
+            fragmentManager.beginTransaction().replace(R.id.content_fragment, new AddClienteCardFragmento()).commit();
         }
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
